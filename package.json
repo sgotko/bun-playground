@@ -1,13 +1,15 @@
 {
 	"name": "bun-playground",
-	"module": "index.ts",
+	"module": "src/index.ts",
 	"type": "module",
 	"scripts": {
-		"start": "bun run index.ts"
+		"start": "bun run ./src/index.ts",
+		"lint": "eslint ."
 	},
 	"devDependencies": {
 		"@types/figlet": "^1.5.6",
-		"bun-types": "^1.0.1"
+		"bun-types": "^1.0.1",
+		"eslint": "^8.49.0"
 	},
 	"peerDependencies": {
 		"typescript": "^5.0.0"
